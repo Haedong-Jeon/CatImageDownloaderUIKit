@@ -8,6 +8,7 @@
 import UIKit
 
 class LaunchView: UIView {
+    //MARK: - Properties
     var titleImgView: UIImageView = {
         var imgView = UIImageView()
         imgView.translatesAutoresizingMaskIntoConstraints = false
@@ -25,6 +26,7 @@ class LaunchView: UIView {
         label.sizeToFit()
         return label
     }()
+    //MARK: - init
     override init(frame: CGRect) {
         super.init(frame: frame)
         configureUI()
@@ -32,6 +34,7 @@ class LaunchView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    //MARK: - 초기 UI
     func configureUI() {
         backgroundColor = .systemIndigo
         addSubview(titleImgView)

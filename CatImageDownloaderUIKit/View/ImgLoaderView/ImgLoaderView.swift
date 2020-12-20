@@ -8,6 +8,7 @@
 import UIKit
 
 class ImgLoaderView: UIView {
+    //MARK: - Properties
     var imgView: UIImageView = {
         var imgView = UIImageView()
         imgView.translatesAutoresizingMaskIntoConstraints = false
@@ -79,6 +80,7 @@ class ImgLoaderView: UIView {
         button.setImage(UIImage(systemName: "photo")?.withTintColor(.white).withRenderingMode(.alwaysOriginal), for: .normal)
         return button
     }()
+    //MARK: - init
     override init(frame: CGRect) {
         super.init(frame: frame)
         initialUI()
@@ -86,8 +88,10 @@ class ImgLoaderView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    //MARK: - 초기 UI 작업
     func initialUI() {
         backgroundColor = #colorLiteral(red: 0.1889419258, green: 0.1871659458, blue: 0.2520412803, alpha: 1)
+        
         //다운로드 받은 이미지가 들어갈 이미지 뷰.
         addSubview(imgView)
         imgView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 20).isActive = true
@@ -108,11 +112,11 @@ class ImgLoaderView: UIView {
         catLifeExpectLabel.topAnchor.constraint(equalTo: catNameLabel.bottomAnchor, constant: 5).isActive = true
         catLifeExpectLabel.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor).isActive = true
         
-        
         //현재 다운로드 받은 바이트와 전체 바이트 표시
         addSubview(progressLabel)
         progressLabel.topAnchor.constraint(equalTo: progressBar.bottomAnchor, constant: 5).isActive = true
         progressLabel.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor).isActive = true
+    
         //다운로드 버튼
         addSubview(downloadButton)
         downloadButton.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -50).isActive = true

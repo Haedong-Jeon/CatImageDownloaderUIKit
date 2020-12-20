@@ -49,12 +49,10 @@ class Networking: NSObject, URLSessionDelegate, URLSessionDownloadDelegate {
         
         guard let data = try? Data(contentsOf: location) else { return }
         guard let res = try? JSONDecoder().decode([Cat].self, from: data) else { return }
-        
         guard let imgURL = URL(string: res[0].url!) else { return }
         guard let imgData = try? Data(contentsOf: imgURL) else { return }
         guard let img = UIImage(data: imgData) else { return }
         
-        print(res[0])
         if !res[0].breeds!.isEmpty {
             let nameBase = "이름: "
             let name = res[0].breeds![0].name ?? "정보 없음"
