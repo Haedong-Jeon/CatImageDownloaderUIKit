@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C8D82FF63056B241898E60D /* Pods_CatImageDownloaderUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0A4906DE2FE02BADC3656E /* Pods_CatImageDownloaderUIKit.framework */; };
+		E91194A4258E212C00164FBB /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91194A3258E212C00164FBB /* LaunchView.swift */; };
+		E91194AA258E24F600164FBB /* LaunchHelperForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91194A9258E24F600164FBB /* LaunchHelperForViews.swift */; };
+		E91194AF258E253D00164FBB /* LaunchHelperForNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91194AE258E253D00164FBB /* LaunchHelperForNav.swift */; };
+		E91F2D4E258EC3B60094FEA7 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F2D4D258EC3B60094FEA7 /* Cat.swift */; };
+		E91F2D55258EC4CF0094FEA7 /* ImgLoadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F2D54258EC4CF0094FEA7 /* ImgLoadController.swift */; };
+		E91F2D5F258EC61E0094FEA7 /* ImgLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F2D5E258EC61E0094FEA7 /* ImgLoaderView.swift */; };
+		E91F2D62258EC9740094FEA7 /* ImgLoadHelperForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F2D61258EC9740094FEA7 /* ImgLoadHelperForViews.swift */; };
+		E91F2D65258ECB030094FEA7 /* ImgLoadSelectorForButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F2D64258ECB030094FEA7 /* ImgLoadSelectorForButtons.swift */; };
+		E91F2D68258ECCB10094FEA7 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F2D67258ECCB10094FEA7 /* Networking.swift */; };
 		E95BEC50258E1E0F0083C14A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BEC4F258E1E0F0083C14A /* AppDelegate.swift */; };
 		E95BEC52258E1E0F0083C14A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BEC51258E1E0F0083C14A /* SceneDelegate.swift */; };
-		E95BEC54258E1E0F0083C14A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BEC53258E1E0F0083C14A /* ViewController.swift */; };
+		E95BEC54258E1E0F0083C14A /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BEC53258E1E0F0083C14A /* LaunchController.swift */; };
 		E95BEC57258E1E0F0083C14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95BEC55258E1E0F0083C14A /* Main.storyboard */; };
 		E95BEC59258E1E0F0083C14A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95BEC58258E1E0F0083C14A /* Assets.xcassets */; };
 		E95BEC5C258E1E0F0083C14A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95BEC5A258E1E0F0083C14A /* LaunchScreen.storyboard */; };
+		E9DDBE99258EE0430010C4FD /* ImgLoaderHelperForUIChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DDBE98258EE0430010C4FD /* ImgLoaderHelperForUIChange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E0A4906DE2FE02BADC3656E /* Pods_CatImageDownloaderUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatImageDownloaderUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B306CC637D6BC8CD603F863 /* Pods-CatImageDownloaderUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatImageDownloaderUIKit.debug.xcconfig"; path = "Target Support Files/Pods-CatImageDownloaderUIKit/Pods-CatImageDownloaderUIKit.debug.xcconfig"; sourceTree = "<group>"; };
+		E91194A3258E212C00164FBB /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		E91194A9258E24F600164FBB /* LaunchHelperForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchHelperForViews.swift; sourceTree = "<group>"; };
+		E91194AE258E253D00164FBB /* LaunchHelperForNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchHelperForNav.swift; sourceTree = "<group>"; };
+		E91F2D4D258EC3B60094FEA7 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		E91F2D54258EC4CF0094FEA7 /* ImgLoadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgLoadController.swift; sourceTree = "<group>"; };
+		E91F2D5E258EC61E0094FEA7 /* ImgLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgLoaderView.swift; sourceTree = "<group>"; };
+		E91F2D61258EC9740094FEA7 /* ImgLoadHelperForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgLoadHelperForViews.swift; sourceTree = "<group>"; };
+		E91F2D64258ECB030094FEA7 /* ImgLoadSelectorForButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgLoadSelectorForButtons.swift; sourceTree = "<group>"; };
+		E91F2D67258ECCB10094FEA7 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		E95BEC4C258E1E0F0083C14A /* CatImageDownloaderUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatImageDownloaderUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95BEC4F258E1E0F0083C14A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E95BEC51258E1E0F0083C14A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E95BEC53258E1E0F0083C14A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E95BEC53258E1E0F0083C14A /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
 		E95BEC56258E1E0F0083C14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E95BEC58258E1E0F0083C14A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E95BEC5B258E1E0F0083C14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95BEC5D258E1E0F0083C14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DDBE98258EE0430010C4FD /* ImgLoaderHelperForUIChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgLoaderHelperForUIChange.swift; sourceTree = "<group>"; };
+		F9278C795C2946264B9EB583 /* Pods-CatImageDownloaderUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatImageDownloaderUIKit.release.xcconfig"; path = "Target Support Files/Pods-CatImageDownloaderUIKit/Pods-CatImageDownloaderUIKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,125 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C8D82FF63056B241898E60D /* Pods_CatImageDownloaderUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4924ECC59F065C286B659078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E0A4906DE2FE02BADC3656E /* Pods_CatImageDownloaderUIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDC226A2A653D92A2372C57B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B306CC637D6BC8CD603F863 /* Pods-CatImageDownloaderUIKit.debug.xcconfig */,
+				F9278C795C2946264B9EB583 /* Pods-CatImageDownloaderUIKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E91194A6258E24D100164FBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E91F2D51258EC4B90094FEA7 /* ImgLoadController */,
+				E91194A7258E24DF00164FBB /* LaunchController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E91194A7258E24DF00164FBB /* LaunchController */ = {
+			isa = PBXGroup;
+			children = (
+				E95BEC53258E1E0F0083C14A /* LaunchController.swift */,
+				E91194A8258E24E600164FBB /* Helper */,
+			);
+			path = LaunchController;
+			sourceTree = "<group>";
+		};
+		E91194A8258E24E600164FBB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E91194A9258E24F600164FBB /* LaunchHelperForViews.swift */,
+				E91194AE258E253D00164FBB /* LaunchHelperForNav.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E91194AD258E251D00164FBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E91F2D5C258EC5F80094FEA7 /* ImgLoaderView */,
+				E91F2D5B258EC5DC0094FEA7 /* LaunchView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E91F2D4C258EC3A90094FEA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E91F2D4D258EC3B60094FEA7 /* Cat.swift */,
+				E91F2D67258ECCB10094FEA7 /* Networking.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E91F2D51258EC4B90094FEA7 /* ImgLoadController */ = {
+			isa = PBXGroup;
+			children = (
+				E91F2D53258EC4C60094FEA7 /* Selector */,
+				E91F2D52258EC4C00094FEA7 /* Helper */,
+				E91F2D54258EC4CF0094FEA7 /* ImgLoadController.swift */,
+			);
+			path = ImgLoadController;
+			sourceTree = "<group>";
+		};
+		E91F2D52258EC4C00094FEA7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E91F2D61258EC9740094FEA7 /* ImgLoadHelperForViews.swift */,
+				E9DDBE98258EE0430010C4FD /* ImgLoaderHelperForUIChange.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E91F2D53258EC4C60094FEA7 /* Selector */ = {
+			isa = PBXGroup;
+			children = (
+				E91F2D64258ECB030094FEA7 /* ImgLoadSelectorForButtons.swift */,
+			);
+			path = Selector;
+			sourceTree = "<group>";
+		};
+		E91F2D5B258EC5DC0094FEA7 /* LaunchView */ = {
+			isa = PBXGroup;
+			children = (
+				E91194A3258E212C00164FBB /* LaunchView.swift */,
+			);
+			path = LaunchView;
+			sourceTree = "<group>";
+		};
+		E91F2D5C258EC5F80094FEA7 /* ImgLoaderView */ = {
+			isa = PBXGroup;
+			children = (
+				E91F2D5E258EC61E0094FEA7 /* ImgLoaderView.swift */,
+			);
+			path = ImgLoaderView;
+			sourceTree = "<group>";
+		};
 		E95BEC43258E1E0E0083C14A = {
 			isa = PBXGroup;
 			children = (
 				E95BEC4E258E1E0F0083C14A /* CatImageDownloaderUIKit */,
 				E95BEC4D258E1E0F0083C14A /* Products */,
+				BDC226A2A653D92A2372C57B /* Pods */,
+				4924ECC59F065C286B659078 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +188,11 @@
 		E95BEC4E258E1E0F0083C14A /* CatImageDownloaderUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E91F2D4C258EC3A90094FEA7 /* Model */,
+				E91194AD258E251D00164FBB /* View */,
+				E91194A6258E24D100164FBB /* Controller */,
 				E95BEC4F258E1E0F0083C14A /* AppDelegate.swift */,
 				E95BEC51258E1E0F0083C14A /* SceneDelegate.swift */,
-				E95BEC53258E1E0F0083C14A /* ViewController.swift */,
 				E95BEC55258E1E0F0083C14A /* Main.storyboard */,
 				E95BEC58258E1E0F0083C14A /* Assets.xcassets */,
 				E95BEC5A258E1E0F0083C14A /* LaunchScreen.storyboard */,
@@ -74,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E95BEC60258E1E0F0083C14A /* Build configuration list for PBXNativeTarget "CatImageDownloaderUIKit" */;
 			buildPhases = (
+				6B8C89B04E81A05647F6C7B1 /* [CP] Check Pods Manifest.lock */,
 				E95BEC48258E1E0F0083C14A /* Sources */,
 				E95BEC49258E1E0F0083C14A /* Frameworks */,
 				E95BEC4A258E1E0F0083C14A /* Resources */,
+				719FF893CD3A7E752811A166 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +268,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B8C89B04E81A05647F6C7B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatImageDownloaderUIKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		719FF893CD3A7E752811A166 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatImageDownloaderUIKit/Pods-CatImageDownloaderUIKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatImageDownloaderUIKit/Pods-CatImageDownloaderUIKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatImageDownloaderUIKit/Pods-CatImageDownloaderUIKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E95BEC48258E1E0F0083C14A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E95BEC54258E1E0F0083C14A /* ViewController.swift in Sources */,
+				E91F2D62258EC9740094FEA7 /* ImgLoadHelperForViews.swift in Sources */,
+				E95BEC54258E1E0F0083C14A /* LaunchController.swift in Sources */,
+				E91F2D4E258EC3B60094FEA7 /* Cat.swift in Sources */,
+				E91F2D68258ECCB10094FEA7 /* Networking.swift in Sources */,
+				E91194A4258E212C00164FBB /* LaunchView.swift in Sources */,
+				E91F2D55258EC4CF0094FEA7 /* ImgLoadController.swift in Sources */,
+				E91F2D5F258EC61E0094FEA7 /* ImgLoaderView.swift in Sources */,
+				E91194AA258E24F600164FBB /* LaunchHelperForViews.swift in Sources */,
+				E9DDBE99258EE0430010C4FD /* ImgLoaderHelperForUIChange.swift in Sources */,
 				E95BEC50258E1E0F0083C14A /* AppDelegate.swift in Sources */,
+				E91194AF258E253D00164FBB /* LaunchHelperForNav.swift in Sources */,
 				E95BEC52258E1E0F0083C14A /* SceneDelegate.swift in Sources */,
+				E91F2D65258ECB030094FEA7 /* ImgLoadSelectorForButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +471,7 @@
 		};
 		E95BEC61258E1E0F0083C14A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B306CC637D6BC8CD603F863 /* Pods-CatImageDownloaderUIKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +491,7 @@
 		};
 		E95BEC62258E1E0F0083C14A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9278C795C2946264B9EB583 /* Pods-CatImageDownloaderUIKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
